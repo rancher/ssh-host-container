@@ -3,6 +3,10 @@
 This container sets up a SSH server with public key authentication.
 It creates a rancher test user and sets the authorized keys for this user from the enviroment variable - SSH_KEY.
 
+How to use this image:
+
+docker run -d -P -e SSH_KEY=<sshkey> rancher/ssh-host-container
+
 # License
 Copyright (c) 2014-2015 [Rancher Labs, Inc.](http://rancher.com)
 
