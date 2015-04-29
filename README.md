@@ -5,7 +5,7 @@ It creates a rancher test user and sets the authorized keys for this user from t
 
 How to use this image:
 
-docker run -d -P -e SSH_KEY=<sshkey> rancher/ssh-host-container
+`docker run -d -P -e SSH_KEY=<sshkey> rancher/ssh-host-container`
 
 # License
 Copyright (c) 2014-2015 [Rancher Labs, Inc.](http://rancher.com)
