@@ -7,6 +7,12 @@ How to use this image:
 
 `docker run -d -P -e SSH_KEY=<sshkey> rancher/ssh-host-container`
 
+## Contact
+For bugs, questions, comments, corrections, suggestions, etc., open an issue in
+ [rancher/rancher](//github.com/rancher/rancher/issues) with a title starting with `[ssh-host-instance] `.
+
+Or just [click here](//github.com/rancher/rancher/issues/new?title=%5Bssh-host-instance%5D%20) to create a new issue.
+
 # License
 Copyright (c) 2014-2015 [Rancher Labs, Inc.](http://rancher.com)
 
